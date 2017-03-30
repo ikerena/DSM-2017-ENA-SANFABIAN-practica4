@@ -1,5 +1,5 @@
 
-var socket = io();
+var socket = io.connect();
 
 socket.on('chat', function(datos){
 	
